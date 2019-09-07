@@ -1,0 +1,61 @@
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.green {
+    color: brown;
+    background-color: greenyellow;
+}
+
+.brown {
+    color: bisque;
+    background-color: brown;
+}
+
+.yellow {
+    color: black;
+    background-color: yellow;
+}
+
+section {
+    box-sizing: border-box;
+    float: left;
+    margin: 1%;
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 31%;
+}
+
+section h2 {
+    float: right;
+    margin: 0;
+    padding: 5px 15px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+section p {
+    float: left;
+    padding: 10px;
+}
+
+/* tablet */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    section {
+        width: 48%;
+        margin: 1%;
+    }
+    .last {
+        width: 98%;
+    }
+}
+
+/* mobile */
+
+@media (max-width: 767px) {
+    section {
+        width: 98%;
+    }
+}
